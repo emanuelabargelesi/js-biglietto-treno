@@ -2,8 +2,8 @@ var prezzo = 0.21;
 var km = 1;
 
 // domandare età e numero di km
-var eta = prompt("Quanti anni hai?");
-var distanza = prompt("Quanti km devi percorrere?");
+var eta = parseInt(prompt("Quanti anni hai?"));
+var distanza = parseInt(prompt("Quanti km devi percorrere?"));
 
 // cpu calcola prezzo del viaggio
 
@@ -21,6 +21,8 @@ if (eta <= 18) {
 } else {
   document.write("Il prezzo è " + totale);
 }
+
+
 
 
 
